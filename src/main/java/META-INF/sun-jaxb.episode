@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2021.05.06 à 02:21:18 AM CEST 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.tekup.de/soap/models/whitetest" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="de.tekup.DS.soap.api.consume.whitetests"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:Student">
+                  
+            <class ref="de.tekup.DS.soap.api.consume.whitetests.Student"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:StudentRequest">
+                  
+            <class ref="de.tekup.DS.soap.api.consume.whitetests.StudentRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:WhiteTestResponse">
+                  
+            <class ref="de.tekup.DS.soap.api.consume.whitetests.WhiteTestResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Exam">
+                  
+            <class ref="de.tekup.DS.soap.api.consume.whitetests.Exam"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExamsRequest">
+                  
+            <class ref="de.tekup.DS.soap.api.consume.whitetests.ExamsRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:ExamsResponse">
+                  
+            <class ref="de.tekup.DS.soap.api.consume.whitetests.ExamsResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
