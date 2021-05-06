@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>White Tests Status</title>
+<style type="text/css">
+	span {
+        display: inline-block;
+        width: 280px;
+        text-align: left;
+    }
+</style>
+</head>
+<body>
+<div align="center">
+	<h2> Check White Tests </h2>
+	<span> student  id :</span> <span th:text="${response.student.id}"></span><br/>
+	<span> student  name :</span> <span th:text="${response.student.name}"></span><br/>
+	<span> student  address (street) :</span> <span th:text="${response.student.address.street}"></span><br/>
+	<span> student  address (city) :</span> <span th:text="${response.student.address.city}"></span><br/>
+	<span> Exam code :</span> <span th:text="${response.exam.code}"></span><br/>
+	<span> Exam name :</span> <span th:text="${response.exam.name}"></span><br/>
+	<span> Date :</span> <span th:text="${response.date}"></span><br/>
+	
+</div>
+</body>
+</html>
